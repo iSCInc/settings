@@ -1,0 +1,10 @@
+if !LOADED
+  print("File loaded!")
+  LOADED = true
+  require("version.nrb")
+else
+  print("Version file required!")
+end
+
+# => Version file loaded!
+# => Version file required!
